@@ -1,3 +1,4 @@
+#!/bin/bash
 grep -ilr "$1" *
 if [ $? -ne 0 ]
 then
